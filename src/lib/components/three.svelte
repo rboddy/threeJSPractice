@@ -20,7 +20,7 @@
     const light = new THREE.PointLight( 0xff0000, 5, 100 );
     light.position.set( 0, 0, 50 );
     scene.add( light );
-    const geometry = new THREE.BoxGeometry(1, 1, 1);
+    const geometry = new THREE.BoxGeometry(2, 2, 2);
     const material = new THREE.MeshLambertMaterial( { color: 0xFFBF00 } )
     const cube = new THREE.Mesh( geometry, material );
     scene.add( cube )

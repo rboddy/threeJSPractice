@@ -1,5 +1,5 @@
 <script>
-  import Three from "$lib/components/three.svelte";
+  import Cube from "$lib/components/cube.svelte";
 </script>
 
-<Three />
+<Cube />

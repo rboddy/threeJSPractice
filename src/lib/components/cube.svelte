@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import * as THREE from "three";
+  import Nav from "./nav.svelte";
 
   onMount(() => {
     const scene = new THREE.Scene();
@@ -37,4 +38,5 @@
     });
 </script>
 
+<Nav text={'Lines Tutorial'} location={'/lines'} />
 <div id="main"></div>

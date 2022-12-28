@@ -1,6 +1,7 @@
 <script>
     import { onMount } from "svelte";
     import * as THREE from "three";
+    import Nav from "./nav.svelte";
 
     onMount(() => {
         const renderer = new THREE.WebGLRenderer();
@@ -27,4 +28,5 @@
     })
 </script>
 
+<Nav text={"Cube Tutorial"} location={"/"} />
 <div id="main"></div>
